@@ -16,7 +16,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/alunos")
-@CrossOrigin(origins = "*")
 public class ProvaController {
     
     @Autowired
