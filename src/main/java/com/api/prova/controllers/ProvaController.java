@@ -1,7 +1,7 @@
-package controllers;
+package com.api.prova.controllers;
 
-import models.ProvaModel;
-import services.ProvaService;
+import com.api.prova.models.ProvaModel;
+import com.api.prova.services.ProvaService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -15,6 +15,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/api/alunos")
 public class ProvaController {
     

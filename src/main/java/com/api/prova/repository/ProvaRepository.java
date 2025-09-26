@@ -1,6 +1,6 @@
-package repository;
+package com.api.prova.repository;
 
-import models.ProvaModel;
+import com.api.prova.models.ProvaModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

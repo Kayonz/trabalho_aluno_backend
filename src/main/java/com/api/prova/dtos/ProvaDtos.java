@@ -1,4 +1,4 @@
-package dtos;
+package com.api.prova.dtos;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

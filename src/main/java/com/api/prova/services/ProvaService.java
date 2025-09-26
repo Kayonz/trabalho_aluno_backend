@@ -1,7 +1,7 @@
-package services;
+package com.api.prova.services;
 
-import models.ProvaModel;
-import repository.ProvaRepository;
+import com.api.prova.models.ProvaModel;
+import com.api.prova.repository.ProvaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
